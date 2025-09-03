@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --unip-azul-escuro: #07366a; /* Azul principal do logo e site */
+    --unip-azul-claro: #075ebd;   /* Um azul mais vibrante para links e botões */
+    --unip-amarelo: #fff100;      /* Amarelo do logo, para destaque */
+    --unip-cinza-escuro: #343a40; /* Cinza para texto e rodapé */
+    --unip-cinza-claro: #f8f9fa;  /* Fundo para seções */
+    --unip-braco: #ffffff;  /* Cor para links */
+    --unip-vermelho: #ff0000;  /* Cor para o botão fechar */
+    --unip-vermelho-escuro: #b30000;  /* Cor para o hover do botão fechar */
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--unip-cinza-escuro);
+}
+
+/* --- ESTILOS GERAIS (MOBILE-FIRST) --- */
+
+.portal-banner {
+    background-color: var(--unip-azul-escuro);
+    color: var(--unip-braco);
+    padding: 2.5rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(7, 54, 106, 0.2);
+    margin-bottom: 2.5rem !important;
+}
+
+.portal-banner h1 {
+    color: var(--unip-amarelo);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: clamp(30px, 5vw, 48px);
+    line-height: 1.2;
+}
+
+.portal-banner .lead {
+    color: var(--unip-braco);
+    opacity: 0.9;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+}
+
+h2 {
+    color: var(--unip-azul-escuro);
+    font-weight: 700;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 15px;
+    font-size: 1.75rem;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: var(--unip-amarelo);
+}
+
+.btn-primary {
+    background-color: var(--unip-azul-claro);
+    border-color: var(--unip-azul-claro);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--unip-azul-escuro);
+    border-color: var(--unip-azul-escuro);
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    background-color: var(--unip-azul-escuro) !important;
+}
+
+.nav-item .nav-link {
+    color: var(--unip-braco) !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: var(--unip-amarelo) !important;
+}
+
+.modal-header {
+    background-color: var(--unip-azul-claro);
+    color: var(--unip-braco);
+}
+
+.btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+    color: var(--unip-vermelho);
+}
+
+.modal-body .btn-outline-primary {
+    border-color: var(--unip-azul-claro);
+    color: var(--unip-azul-claro);
+}
+
+.modal-body .btn-outline-primary:hover {
+    background-color: var(--unip-azul-claro);
+    color: var(--unip-braco);
+}
+
+.bg-light {
+    background-color: var(--unip-cinza-claro) !important;
+}
+
+.bg-dark {
+    background-color: var(--unip-azul-claro) !important;
+}
+
+
+/* ====================================================== */
+/* ---               RESPONSIVIDADE                   --- */
+/* ====================================================== */
+
+@media (min-width: 768px) {
+    
+    .portal-banner {
+        padding: 2rem 2rem;
+    }
+
+    .portal-banner .lead {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    html {
+        scroll-padding-top: 102px; 
+    }
+
+    .portal-banner {
+        padding: 5rem 3rem; 
+    }
+}

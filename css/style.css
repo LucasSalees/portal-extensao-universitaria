@@ -127,7 +127,7 @@ h2::after {
 }
 
 p {
-    text-align-last: center; 
+    /* text-align-last: center; */
 }
 
 .dropdown-menu-dark {

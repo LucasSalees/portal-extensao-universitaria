@@ -119,12 +119,36 @@ h2::after {
 
 .bg-light {
     background-color: var(--unip-cinza-claro) !important;
+    padding: 0px 10px;
 }
 
 .bg-dark {
     background-color: var(--unip-azul-claro) !important;
 }
 
+p {
+    text-align-last: center; 
+}
+
+.dropdown-menu-dark {
+    background-color: var(--unip-azul-escuro);
+    border-color: rgba(255, 255, 255, 0.15); 
+}
+
+.dropdown-menu-dark .dropdown-item {
+    color: var(--unip-braco);
+    transition: all 0.2s ease-in-out;
+}
+
+.dropdown-menu-dark .dropdown-item:hover,
+.dropdown-menu-dark .dropdown-item:focus {
+    color: var(--unip-amarelo); 
+    background-color: var(--unip-azul-claro); 
+}
+
+.dropdown-menu-dark .dropdown-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
 
 /* ====================================================== */
 /* ---               RESPONSIVIDADE                   --- */
@@ -152,6 +176,6 @@ h2::after {
     }
 
     .portal-banner {
-        padding: 5rem 3rem; 
+        padding: 2rem 3rem;
     }
 }

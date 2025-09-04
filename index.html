@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UNIP - Portal de Extensão Universitária</title>
     
-    <!-- Bootstrap CSS completo -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-QK4+7JrWj5fCkLMTzRkK91xG7l5i+2pF5ZRgUxoCXYuz3bGsaX9IuM7p7bH4l4jXf3Rz8ey8j7UEq2H+wF2I2Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="css/style.css">
@@ -19,23 +17,16 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#">            
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 542.7 115.7" 
-                    width="120" height="40" class="me-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 542.7 115.7" width="120" height="40" class="me-2">
                     <style>.st0{fill:#FFED00;}</style>
                     <g>
-                        <path class="st0" d="M444.4,23.7l-8.2,30.8h35.2c3,0,4.8-0.5,7.1-2.2c2.1-1.6,3.2-2.9,3.9-5.6l2.6-10c0.8-2.9-0.3-5.5-2.5-8.2
-                            c-2.6-3.3-5.6-4.8-9.3-4.8L444.4,23.7L444.4,23.7z M401.8,2.5h118.9c5.2,0,8.9,2.3,13,6.5c6.8,6.9,6.6,14.9,4.5,23l-6.9,26.9
-                            c-1.5,6.1-2.3,10-6.4,14.3c-5.3,5.7-10.6,7.4-19.1,7.4h-76.6c-2.1,11.3-5.7,17.6-14.1,24.3c-7.6,6-13.4,8.7-23.9,8.7h-17.6
-                            L401.8,2.5L401.8,2.5z"/>
-                        <path class="st0" d="M282.6,2.5h45.2l-19.4,77.4c-2.9,11.5-7.5,18.1-16.2,25.8c-5.4,4.7-22.2,10.2-38,6.9l-40.4-58l-6.3,25.4
-                            c-2.8,11.3-7.5,18.1-16.3,25.8c-5.3,4.7-22.2,10.2-38,6.9l28.4-110h45.2l41.7,53.7l0,0L282.6,2.5L282.6,2.5z"/>
-                        <path class="st0" d="M314.2,112.5l28-110h45.2L368,79.8c-2.9,11.5-7.5,18.1-16.2,25.8C346.4,110.4,330,115.9,314.2,112.5
-                            L314.2,112.5z"/>
-                        <path class="st0" d="M69.4,2.2H22L4.4,69.3c-2.7,10.2-1.1,19.2,8.8,28.8c11,10.7,30.3,15,49.2,15h34.3c17.2,0,27.9-3.2,39-14.2
-                            c6.8-6.8,9.8-12,12.3-21.7l19.4-75.1h-48.6l-14.4,54.2c-3.6,17.1-6.6,20.9-29.2,20.9c-14.2,0-22.1-11.7-19.8-20.9L69.4,2.2
-                            L69.4,2.2z"/>
+                        <path class="st0" d="M444.4,23.7l-8.2,30.8h35.2c3,0,4.8-0.5,7.1-2.2c2.1-1.6,3.2-2.9,3.9-5.6l2.6-10c0.8-2.9-0.3-5.5-2.5-8.2 c-2.6-3.3-5.6-4.8-9.3-4.8L444.4,23.7L444.4,23.7z M401.8,2.5h118.9c5.2,0,8.9,2.3,13,6.5c6.8,6.9,6.6,14.9,4.5,23l-6.9,26.9 c-1.5,6.1-2.3,10-6.4,14.3c-5.3,5.7-10.6,7.4-19.1,7.4h-76.6c-2.1,11.3-5.7,17.6-14.1,24.3c-7.6,6-13.4,8.7-23.9,8.7h-17.6 L401.8,2.5L401.8,2.5z"/>
+                        <path class="st0" d="M282.6,2.5h45.2l-19.4,77.4c-2.9,11.5-7.5,18.1-16.2,25.8c-5.4,4.7-22.2,10.2-38,6.9l-40.4-58l-6.3,25.4 c-2.8,11.3-7.5,18.1-16.3,25.8c-5.3,4.7-22.2,10.2-38,6.9l28.4-110h45.2l41.7,53.7l0,0L282.6,2.5L282.6,2.5z"/>
+                        <path class="st0" d="M314.2,112.5l28-110h45.2L368,79.8c-2.9,11.5-7.5,18.1-16.2,25.8C346.4,110.4,330,115.9,314.2,112.5 L314.2,112.5z"/>
+                        <path class="st0" d="M69.4,2.2H22L4.4,69.3c-2.7,10.2-1.1,19.2,8.8,28.8c11,10.7,30.3,15,49.2,15h34.3c17.2,0,27.9-3.2,39-14.2 c6.8-6.8,9.8-12,12.3-21.7l19.4-75.1h-48.6l-14.4,54.2c-3.6,17.1-6.6,20.9-29.2,20.9c-14.2,0-22.1-11.7-19.8-20.9L69.4,2.2 L69.4,2.2z"/>
                     </g>
-                </svg></a>
+                </svg>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,66 +34,231 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#unip-brasil">A UNIP</a></li>
                     <li class="nav-item"><a class="nav-link" href="#unip-sorocaba">Campus Sorocaba</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#extensao">Extensão</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cursos">Cursos por Área</a></li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownExtensao" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Formatos de Extensão
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownExtensao">
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalFormatoInfografico">Infográfico</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalFormatoPanfleto">Panfleto Informativo</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalFormatoCampanha">Campanha Temática</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalFormatoCapacitacao">Capacitação ou Treinamento</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalFormatoEvento">Evento</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalFormatoCartilha">Cartilha</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalFormatoEbook">Ebook</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalFormatoOficina">Oficina</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalFormatoPalestra">Palestra ou Workshop</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalFormatoServicos">Prestação de Serviços</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <div class="modal fade" id="modalFormatoInfografico">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Infográfico</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <p><strong>Descrição:</strong> Representação visual de informações que combina elementos gráficos, como imagens, gráficos, ícones e texto, para apresentar dados ou conceitos de forma clara e fácil de entender.</p>
+                    <hr>
+                    <p class="fw-bold">Carga Horária validada: <span class="badge bg-primary">30 horas</span></p>
+                </div>
+                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalFormatoPanfleto">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Panfleto Informativo</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <p><strong>Descrição:</strong> Material impresso ou digital menor em tamanho e geralmente dobrável, projetado para fornecer informações 
+                        resumidas e atrativas sobre um produto, serviço, evento ou organização.</p>
+                    <hr>
+                    <p class="fw-bold">Carga Horária validada: <span class="badge bg-primary">30 horas</span></p>
+                </div>
+                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalFormatoCampanha">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Campanha Temática</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <p><strong>Descrição:</strong> Documento que detalha a estratégia e quais as ações que serão desenvolvidas em determinado período. 
+                        Uma mensagem específica ou um conjunto de mensagens que são desenvolvidas de um tema central. Tem como objetivo criar conexão 
+                        emocional com o público alvo, transmitir uma mensagem clara e consistente e alcançar metas específicas.</p>
+                    <hr>
+                    <p class="fw-bold">Carga Horária validada: <span class="badge bg-primary">50 horas</span></p>
+                </div>
+                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalFormatoCapacitacao">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Capacitação ou Treinamento</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <p><strong>Descrição:</strong> Documento que detalha a capacitação ou treinamento oferecido. Capacitação prepara o indivíduo para 
+                        desenvolver atividades com autonomia, criando competências para uma nova função. Treinamento potencializa um conhecimento já 
+                        adquirido para a função que o profissional já exerce.</p>
+                    <hr>
+                    <p class="fw-bold">Carga Horária validada: <span class="badge bg-primary">50 horas</span></p>
+                </div>
+                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalFormatoEvento">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Evento</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <p><strong>Descrição:</strong> Acontecimento organizado por especialistas, com objetivos específicos - institucionais, culturais, comunitários, técnico-científicos, profissionais.</p>
+                    <hr>
+                    <p class="fw-bold">Carga Horária validada: <span class="badge bg-primary">50 horas</span></p>
+                </div>
+                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalFormatoCartilha">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Cartilha</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <p><strong>Descrição:</strong> Guia ou manual educativo, em formato impresso ou digital, projetado para fornecer informações claras 
+                        e instruções sobre um determinado assunto, usando linguagem fácil de entender e ilustrações para facilitar o aprendizado.</p>
+                    <hr>
+                    <p class="fw-bold">Carga Horária validada: <span class="badge bg-primary">50 horas</span></p>
+                </div>
+                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalFormatoEbook">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Ebook</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <p><strong>Descrição:</strong> Formato digital de livro que pode ser lido em dispositivos eletrônicos, como tablets, leitores de e-books 
+                        e smartphones. Têm um formato semelhante ao de um livro tradicional, com capítulos, texto e até imagens.</p>
+                    <hr>
+                    <p class="fw-bold">Carga Horária validada: <span class="badge bg-primary">50 horas</span></p>
+                </div>
+                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalFormatoOficina">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Oficina</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <p><strong>Descrição:</strong> Atividade prática e interativa realizada com o propósito de ensinar, treinar ou explorar um tópico específico.</p>
+                    <hr>
+                    <p class="fw-bold">Carga Horária validada: <span class="badge bg-primary">50 horas</span></p>
+                </div>
+                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalFormatoPalestra">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Palestra, Seminário ou Workshop</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <p><strong>Descrição:</strong> Apresentação oral com o objetivo de transmitir informações, compartilhar conhecimentos, persuadir, inspirar ou entreter.</p>
+                    <hr>
+                    <p class="fw-bold">Carga Horária validada: <span class="badge bg-primary">50 horas</span></p>
+                </div>
+                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalFormatoServicos">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Prestação de Serviços</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+                <div class="modal-body">
+                    <p><strong>Descrição:</strong> Atividade prática que envolve contribuição de tempo, esforço e habilidades, de forma voluntária e não remunerada, para uma causa, organização ou comunidade.</p>
+                    <hr>
+                    <p class="fw-bold">Carga Horária validada: <span class="badge bg-primary">70 horas</span></p>
+                </div>
+                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button></div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
-
-    <section class="portal-banner container mt-5 pt-4 text-center">
-        <div class="container">
-            <h1 class="display-5 fw-bold">Portal de Extensão Universitária</h1>
-            <p class="lead">Conectando o conhecimento acadêmico com a comunidade.</p>
-        </div>
-    </section>
-
-    <section id="unip-brasil" class="container mt-5 pt-4">
-        <h2 class="text-center">A Universidade Paulista</h2>
-        <p class="text-center lead">Uma das maiores e mais conceituadas instituições de ensino superior do país.</p>
-        <div class="row mt-4">
-            <div class="col-md-6">
-                <p>Com décadas de tradição, a UNIP oferece cursos de graduação, pós-graduação e extensão em todas as áreas do conhecimento, destacando-se pela qualidade de seu corpo docente e por sua infraestrutura moderna, presente em mais de 27 campus em todo o Brasil.</p>
+        <section class="portal-banner container mt-5 pt-4 text-center">
+            <div class="container">
+                <h1 class="display-5 fw-bold">Portal de Extensão Universitária</h1>
+                <p class="lead">Conectando o conhecimento acadêmico com a comunidade.</p>
             </div>
-            <div class="col-md-6">
-                <p>Nossa missão é promover a educação de excelência, formando profissionais qualificados e cidadãos conscientes, capazes de contribuir para o desenvolvimento da sociedade. Os projetos de extensão são uma parte fundamental dessa missão.</p>
+        </section>
+
+        <section id="unip-brasil" class="container mt-5 pt-4">
+            <h2 class="text-center">A Universidade Paulista</h2>
+            <p class="text-center lead">Uma das maiores e mais conceituadas instituições de ensino superior do país.</p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p>Com décadas de tradição, a UNIP oferece cursos de graduação, pós-graduação e extensão em todas as 
+                        áreas do conhecimento, destacando-se pela qualidade de seu corpo docente e por sua infraestrutura moderna, 
+                        presente em mais de 27 campus em todo o Brasil.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Nossa missão é promover a educação de excelência, formando profissionais qualificados e cidadãos conscientes, 
+                        capazes de contribuir para o desenvolvimento da sociedade. Os projetos de extensão são uma parte fundamental dessa missão.</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="unip-sorocaba" class="bg-light py-5 mt-4">
-        <div class="container">
-            <h2 class="text-center">Campus Sorocaba</h2>
-            <p>O campus da UNIP em Sorocaba é um polo de excelência na região, oferecendo uma infraestrutura completa com laboratórios de ponta, biblioteca e espaços de convivência. O campus é um centro vibrante de aprendizado e inovação, fortemente conectado com a comunidade local através de seus projetos de extensão, que buscam aplicar o conhecimento acadêmico para resolver desafios reais da cidade e região.</p>
-        </div>
-    </section>
+        <section id="unip-sorocaba" class="bg-light py-5 mt-4">
+            <div class="container">
+                <h2 class="text-center">Campus Sorocaba</h2>
+                <p>O campus da UNIP em Sorocaba é um polo de excelência na região, oferecendo uma infraestrutura completa com laboratórios 
+                    de ponta, biblioteca e espaços de convivência. O campus é um centro vibrante de aprendizado e inovação, fortemente 
+                    conectado com a comunidade local através de seus projetos de extensão, que buscam aplicar o conhecimento acadêmico para resolver desafios reais da cidade e região.</p>
+            </div>
+        </section>
 
-    <section id="extensao" class="container mt-5">
-        <h2 class="text-center">O Que é Extensão Universitária?</h2>
-        <p>A extensão universitária é o pilar que conecta a universidade com a sociedade. Por meio de cursos, projetos e eventos, os alunos têm a oportunidade de aplicar na prática os conhecimentos adquiridos em sala de aula, desenvolvendo soluções para desafios reais da comunidade e aprimorando competências essenciais para o mercado de trabalho, como liderança, trabalho em equipe e responsabilidade social.</p>
-    </section>
-
-    <section id="cursos" class="bg-light py-5 mt-4">
-        <div class="container text-center">
-            <h2>Portal de Cursos de Extensão</h2>
-            <p class="lead">Navegue pelas áreas do conhecimento para encontrar um projeto.</p>
-            <div class="row mt-4 justify-content-center">
-                <div class="col-md-4 col-lg-3 mb-3">
-                    <button class="btn btn-primary w-100 p-3 fw-bold" data-bs-toggle="modal" data-bs-target="#modalAreaTecnologia">
-                        Área de Tecnologia
-                    </button>
+        <section id="extensao" class="container mt-5">
+            <h2 class="text-center">O Que é Extensão Universitária?</h2>
+            <p>A extensão universitária é o pilar que conecta a universidade com a sociedade. Por meio de cursos, projetos e eventos, os 
+                alunos têm a oportunidade de aplicar na prática os conhecimentos adquiridos em sala de aula, desenvolvendo soluções para 
+                desafios reais da comunidade e aprimorando competências essenciais para o mercado de trabalho, como liderança, trabalho em 
+                equipe e responsabilidade social.</p>
+        </section>
+        
+        <section id="cursos" class="bg-light py-5 mt-4">
+            <div class="container text-center">
+                <h2>Portal de Cursos de Extensão</h2>
+                <p class="lead">Navegue pelas áreas do conhecimento para encontrar um projeto.</p>
+                <div class="row mt-4 justify-content-center">
+                    <div class="col-md-4 col-lg-3 mb-3">
+                        <button class="btn btn-primary w-100 p-3 fw-bold" data-bs-toggle="modal" data-bs-target="#modalAreaTecnologia">
+                            Navegar por extensões
+                        </button>
+                    </div>
                 </div>
-                <div class="col-md-4 col-lg-3 mb-3">
-                    <button class="btn btn-primary w-100 p-3 fw-bold" data-bs-toggle="modal" data-bs-target="#modalAreaSaude">
-                        Área de Saúde
-                    </button>
-                </div>
-                </div>
-        </div>
-    </section>
-
+            </div>
+        </section>
     </div>
 
     <footer class="bg-dark text-white text-center p-4 mt-5">
@@ -113,38 +269,56 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Área de Tecnologia</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5 class="modal-title">Tipos de extensões</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Selecione o curso para ver os projetos de extensão disponíveis:</p>
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalCursoCienciaComp">
-                            Ciência da Computação
-                        </button>
-                        <button class="btn btn-outline-primary" disabled>Análise e Desenv. de Sistemas (Exemplo)</button>
-                        <button class="btn btn-outline-primary" disabled>Redes de Computadores (Exemplo)</button>
+                    <p>Selecione o formato de projeto para ver os exemplos e a carga horária:</p>
+                    <div class="row">
+                        <div class="col-md-6 mb-2"><button class="btn btn-primary w-100" disabled>Infográfico</button></div>
+                        <div class="col-md-6 mb-2"><button class="btn btn-primary w-100" disabled>Panfleto informativo</button></div>
+                        <div class="col-md-6 mb-2"><button class="btn btn-primary w-100" disabled>Campanha temática</button></div>
+                        <div class="col-md-6 mb-2"><button class="btn btn-primary w-100" disabled>Evento</button></div>
+                        <div class="col-md-6 mb-2">
+                            <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProjetosCartilha">Cartilha</button>
+                        </div>
+                        <div class="col-md-6 mb-2"><button class="btn btn-primary w-100" disabled>Ebook</button></div>
+                        <div class="col-md-6 mb-2"><button class="btn btn-primary w-100" disabled>Oficina</button></div>
+                        <div class="col-md-6 mb-2"><button class="btn btn-primary w-100" disabled>Prestação de serviços </button></div>
+                        <div class="col-md-6 mb-2"><button class="btn btn-primary w-100" disabled>Palestra, seminário ou workshop</button></div>
+                        <div class="col-md-6 mb-2"><button class="btn btn-primary w-100" disabled>Capacitação ou treinamento</button></div>
+                    </div>
+                     <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalAreaTecnologia">Voltar</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="modal fade" id="modalCursoCienciaComp">
+    
+    <div class="modal fade" id="modalProjetosCartilha">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Projetos de Ciência da Computação</h5>
+                    <h5 class="modal-title">Formato: Cartilha - Geral</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
                     <p>Selecione o projeto de extensão para saber mais:</p>
+                    <p><strong>Carga Horária validada por atividade:</strong> 50 horas</p>
+                    <hr>
                     <div class="list-group">
                         <a href="https://seguranca-eletrica.netlify.app/" target="_blank" class="list-group-item list-group-item-action">
-                            <strong>Ciência da Computação & xxx:</strong> Segurança Elétrica em Comunidades
+                            <strong>Ciência da computação & Auntomação Industrial:</strong> Segurança Elétrica em Comunidades
                         </a>
-                        <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">
-                            <strong>Ciência da Computação & xxx:</strong> xxxxx xxxxx xxxxx
+                       <a href="assets/ISO 14000.pdf" class="list-group-item list-group-item-action" target="_blank">
+                            <strong>Unip Extensão:</strong> ISO 14000
+                        </a>
+                        <a href="assets/LGPD na Saúde.pdf" class="list-group-item list-group-item-action" target="_blank">
+                            <strong>Unip Extensão:</strong> LGPD na Saúde
+                        </a>
+                        <a href="assets/NR-1.pdf" class="list-group-item list-group-item-action" target="_blank">
+                            <strong>Unip Extensão:</strong> NR-1
                         </a>
                     </div>
                 </div>
@@ -154,27 +328,8 @@
             </div>
         </div>
     </div>
-    
-    <div class="modal fade" id="modalAreaSaude" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Área de Saúde</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Selecione o curso para ver os projetos de extensão disponíveis:</p>
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-outline-primary" disabled>Enfermagem (Exemplo)</button>
-                        <button class="btn btn-outline-primary" disabled>Fisioterapia (Exemplo)</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 
 </body>
